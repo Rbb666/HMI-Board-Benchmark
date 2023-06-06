@@ -16,7 +16,7 @@
 /* Enable additional color format support */
 #define DLG_LVGL_CF                 0
 
-#define LV_USE_GPU_RA6M3_G2D        1
+#define LV_USE_GPU_RA6M3_G2D        0
 #define LV_GPU_RA6M3_G2D_INCLUDE    "hal_data.h"
 
 #define LV_USE_PERF_MONITOR         1

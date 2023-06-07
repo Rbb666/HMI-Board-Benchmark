@@ -52,7 +52,7 @@ rtconfig.BSP_LIBRARY_TYPE = None
 objs = PrepareBuilding(env, RTT_ROOT, has_libcpu=False)
 
 # include drivers
-objs.extend(SConscript(os.path.join(libraries_path_prefix, 'HAL_Drivers', 'SConscript')))
+# objs.extend(SConscript(os.path.join(libraries_path_prefix, 'HAL_Drivers', 'SConscript')))
 
 # make a building
 DoBuilding(TARGET, objs)
